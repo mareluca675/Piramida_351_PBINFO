@@ -1,0 +1,24 @@
+#include <bits/stdc++.h>
+
+using namespace std;
+
+int main()
+{
+    long long n, i = 1, k = 1;
+    cin >> n;
+
+    while(i <= n)
+    {
+        i = 1;
+
+        while(i <= k)
+        {
+            cout << i << " ";
+            i ++;
+        }
+        cout << '\n';
+        k ++;
+    }
+
+    return 0;
+}
